@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSphere Academy</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--================ PRELOADER ================-->
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!--================ BACK TO TOP ================-->
+
+    <button id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!--================ HEADER ================-->
+
+    <header id="header">
+
+        <nav class="navbar container">
+
+            <a href="#" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                SkillSphere
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#result">Result</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-right">
+
+                <button id="themeToggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <button id="menuBtn" class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--================ HERO SECTION ================-->
+
+    <section class="hero" id="home">
+
+        <div class="container hero-container">
+
+            <div class="hero-content">
+
+                <span class="hero-tag">
+                    Welcome to SkillSphere Academy
+                </span>
+
+                <h1>
+                    Learn New Skills &
+                    <span>Build Your Future</span>
+                </h1>
+
+                <p>
+                    Join thousands of students learning modern technology,
+                    programming, design, business, and digital skills through
+                    expert instructors and practical projects.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#courses" class="btn primary-btn">
+                        Explore Courses
+                    </a>
+
+                    <a href="#about" class="btn secondary-btn">
+                        Learn More
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat-box">
+                        <h3 class="counter" data-target="1200">0</h3>
+                        <p>Students</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 class="counter" data-target="45">0</h3>
+                        <p>Courses</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 class="counter" data-target="30">0</h3>
+                        <p>Teachers</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                    alt="Students Learning">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ ABOUT SECTION ================-->
+
+    <section class="about section" id="about">
+
+        <div class="container about-container">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+                    alt="About SkillSphere">
+
+            </div>
+
+            <div class="about-content">
+
+                <span class="section-tag">
+                    About Us
+                </span>
+
+                <h2>
+                    Empowering Students Through Modern Learning
+                </h2>
+
+                <p>
+                    SkillSphere Academy provides high-quality education in
+                    technology, business, and creative fields. Our mission is
+                    to make learning simple, engaging, and career-focused with
+                    experienced mentors and practical training.
+                </p>
+
+                <div class="about-features">
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Expert Instructors</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Industry-Based Courses</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Certificate Programs</span>
+                    </div>
+
+                    <div class="feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Project-Based Learning</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ COURSES SECTION ================-->
+
+    <section class="courses section" id="courses">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Popular Courses</span>
+
+                <h2>Learn Skills That Matter</h2>
+
+                <p>
+                    Explore our most popular professional courses designed
+                    for beginners and future professionals.
+                </p>
+
+            </div>
+
+            <div class="course-grid">                <div class="course-card reveal">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" alt="Web Development">
+
+                    <div class="course-content">
+                        <h3>Web Development</h3>
+                        <p>Master HTML, CSS, JavaScript and build responsive modern websites from scratch.</p>
+
+                        <div class="course-footer">
+                            <span><i class="fa-solid fa-clock"></i> 12 Weeks</span>
+                            <a href="#">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card reveal">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Digital Marketing">
+
+                    <div class="course-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Learn SEO, Social Media Marketing, Google Ads and Meta Ads professionally.</p>
+
+                        <div class="course-footer">
+                            <span><i class="fa-solid fa-clock"></i> 10 Weeks</span>
+                            <a href="#">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card reveal">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80" alt="Python Programming">
+
+                    <div class="course-content">
+                        <h3>Python Programming</h3>
+                        <p>Start coding with Python and build practical applications with confidence.</p>
+
+                        <div class="course-footer">
+                            <span><i class="fa-solid fa-clock"></i> 14 Weeks</span>
+                            <a href="#">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card reveal">
+                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80" alt="Graphic Design">
+
+                    <div class="course-content">
+                        <h3>Graphic Design</h3>
+                        <p>Design professional social media posts, branding materials and creative projects.</p>
+
+                        <div class="course-footer">
+                            <span><i class="fa-solid fa-clock"></i> 8 Weeks</span>
+                            <a href="#">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ TEACHERS =================-->
+
+    <section class="teachers section" id="teachers">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Our Teachers</span>
+
+                <h2>Meet Our Expert Faculty</h2>
+
+            </div>
+
+            <div class="teacher-grid">
+
+                <div class="teacher-card reveal">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Teacher">
+
+                    <h3>Michael Smith</h3>
+
+                    <p>Senior Web Developer</p>
+
+                    <div class="teacher-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="teacher-card reveal">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Teacher">
+
+                    <h3>Emma Johnson</h3>
+
+                    <p>UI/UX Designer</p>
+
+                    <div class="teacher-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+
+                <div class="teacher-card reveal">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Teacher">
+
+                    <h3>David Wilson</h3>
+
+                    <p>Python Instructor</p>
+
+                    <div class="teacher-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="teacher-card reveal">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Teacher">
+
+                    <h3>Sophia Brown</h3>
+
+                    <p>Digital Marketing Expert</p>
+
+                    <div class="teacher-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ LOGIN =================-->
+
+    <section class="login section" id="login">
+
+        <div class="container form-container">
+
+            <div class="form-box reveal">
+
+                <h2>Student Login</h2>
+
+                <form id="loginForm">
+
+                    <input type="email" placeholder="Email Address" required>
+
+                    <input type="password" placeholder="Password" required>
+
+                    <button type="submit" class="btn primary-btn">
+                        Login
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="form-box reveal" id="result">
+
+                <h2>Student Result Checker</h2>
+
+                <input type="text" id="rollNumber" placeholder="Enter Roll Number">
+
+                <button id="checkResult" class="btn primary-btn">
+                    Check Result
+                </button>
+
+                <div id="resultBox"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ CONTACT =================-->
+
+    <section class="contact section" id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Contact Us</span>
+
+                <h2>Let's Connect</h2>
+
+            </div>
+
+            <form id="contactForm" class="contact-form">
+
+                <input type="text" id="name" placeholder="Full Name" required>
+
+                <input type="email" id="email" placeholder="Email Address" required>
+
+                <input type="text" id="subject" placeholder="Subject" required>
+
+                <textarea id="message" rows="6" placeholder="Write Your Message..." required></textarea>
+
+                <button type="submit" class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--================ FOOTER =================-->
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <div class="footer-logo">
+
+                <h2>SkillSphere Academy</h2>
+
+                <p>
+                    Learn, Build and Grow your career with modern education and practical skills.
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#teachers">Teachers</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 SkillSphere Academy. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
